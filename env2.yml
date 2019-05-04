@@ -1,0 +1,6 @@
+name: env2
+
+dependencies:
+ - python=3.7
+ - django=2.2
+ - psycopg2=2.7
