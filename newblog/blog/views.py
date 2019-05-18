@@ -6,6 +6,6 @@ def homepage(request):
 
 
     posts = Post.objects.all()
-    header = 'hey what is up guys'
+    header = 'odunlami'
 
     return render (request, 'index.html', {'titles':posts, 'header':header})
