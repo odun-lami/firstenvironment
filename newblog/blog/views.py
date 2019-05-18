@@ -5,7 +5,7 @@ from .models import Post
 def homepage(request):
 
 
-    posts = Post.objects.all()
+    posts =Post.objects.all()
     header = 'odunlami'
 
     return render (request, 'index.html', {'titles':posts, 'header':header})
